@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .heart {
+          width: 342px;  /* Size matching the SVG */
+          height: 315px; /* Size matching the SVG */
+          position: relative;
+          margin-bottom: 20px;
+        }
+        .heart img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          clip-path: url(#heartClipPath);
+        }
+        
+      </style>
+
+  </head>
+  <body>
+
+    <div class="bg-white dark:bg-zinc-800 text-zinc-800 dark:text-white min-h-screen flex flex-col justify-center items-center">
+        
+        <div class="heart">
+            <svg width="0" height="0">
+              <defs>
+                <clipPath id="heartClipPath" clipPathUnits="objectBoundingBox">
+                    <path d="M 0.5,0.95
+                             C 0.2,0.6 0,0.35 0,0.2
+                             A 0.2,0.2 0 0,1 0.5,0.35
+                             A 0.2,0.2 0 0,1 1,0.2
+                             C 1,0.35 0.8,0.6 0.5,0.95 Z" />
+                </clipPath>
+              </defs>
+            </svg>
+            <img src="img/us2.jpeg" alt="Us">
+          </div>
+    <h1 class="text-4xl font-bold mb-4">Happy Anniversary, Akong Gihigugma!</h1>
+    <br>
+    <p class="text-lg text-center max-w-md">Your steadfast support and unconditional love are my greatest treasures. Knowing that you're always by my side, caring for me with such depth and sincerity, fills my heart with immeasurable gratitude. Thank you for embracing me wholeheartedly and loving me just as I am. You're my rock, and I cherish you more than words can express. ❤️🌟</p>
+</div>
+
+<section class="bg-zinc-100 dark:bg-zinc-900 text-zinc-800 dark:text-white py-12">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Our Love Story</h2>
+        
+        <div class="flex flex-col md:flex-row items-center justify-center">
+            <div class="md:w-1/2 p-4">
+                <img src="img/us3.jpeg" alt="Love Story Timeline" class="rounded-lg shadow-md mb-4">
+            </div>
+            <div class="md:w-1/2 p-4">
+                <p class="text-lg mb-2">Hand in hand, we walk down life's endless path, each step a testament to our shared journey. Embracing every moment, we find strength in togetherness, love in each glance, and joy in the simple act of walking side by side. Forever, we embrace life as one.   <br>   <br> The time we spent together in Siqijor, Dumaguete, Moalboal, and Cebu holds the fondest memories of my life. It's not just the places we visited or the experiences we shared; it's the warmth of your presence that made those moments truly unforgettable. You are my sun, brightening even the darkest days, and my ocean, calming the storms within.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-zinc-200 dark:bg-zinc-800 text-zinc-800 dark:text-white py-12">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Memory Gallery</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div>
+                <img src="img/us.jpeg" alt="Memory 1" class="rounded-lg shadow-md w-full h-64 object-cover">
+                <p class="text-sm mt-2">Discovering the enchantment of Siquijor together, where every moment feels like a magical adventure. 🌴💫</p>
+            </div>
+            <div>
+                <img src="img/us4.jpeg" alt="Memory 2" class="rounded-lg shadow-md w-full h-64 object-cover">
+                <p class="text-sm mt-2">"Our first separation, but our hearts remain connected. I was counting down the days until we're reunited. ❤️✈️</p>
+            </div>
+            <div>
+                <img src="img/us5.jpeg" alt="Memory 3" class="rounded-lg shadow-md w-full h-64 object-cover">
+                <p class="text-sm mt-2">Glowing with happiness and love on a vibrant night out together. 🌟🎉</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-zinc-200 dark:bg-zinc-800 text-zinc-800 dark:text-white py-12">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Future Plans</h2>
+        
+        <ul class="list-disc list-inside">
+            <li>Traveling to Japan</li>
+            <li>Buying a land and building a house</li>
+            <li>Trying every food in the world</li>
+            <li>Fuck on a plane heheh</li>
+        </ul>
+    </div>
+</section>
+
+<section class="bg-zinc-100 dark:bg-zinc-900 text-zinc-800 dark:text-white py-12">
+    <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-8">Song hehe</h2>
+        
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0T5iIrXA4p5GsubkhuBIKV?utm_source=generator&autoplay=true" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+</section>
+
+  </body>
+</html>
